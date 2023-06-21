@@ -25,5 +25,7 @@ const body = document.querySelector('body');
 body.onkeydown = (e) => {
     const keycode = e.keyCode;
     input.value = keyboardMap[keycode];
+    console.log(keycode);
+
 }
 
