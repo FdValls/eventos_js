@@ -20,21 +20,29 @@ const boton = document.querySelector("button");
 //     boton.className = "btnClick";
 // })
 
-boton.onclick = () => { console.log("Respuesta evento click") }
+boton.onclick = () => {
+    console.log("Respuesta evento click")
+    boton.className = "btnClick"
+}
 
 // boton.addEventListener("mouseover", () => {
 //     console.log("Respuesta evento mouseover");
 //     boton.className = "btnOver";
 // })
 
-boton.onmouseover = () => { console.log("Respuesta evento mouseover") }
+boton.onmouseover = () => {
+    console.log("Respuesta evento mouseover")
+    boton.className = "btnOver"
+}
 
 // boton.addEventListener("mouseout", () => {
 //     console.log("Respuesta evento mouseout");
 //     boton.className = "btnOut";
 // })
 
-boton.onmouseout = () => { console.log("Respuesta evento mouseout"); }
+boton.onmouseout = () => { 
+    console.log("Respuesta evento mouseout") 
+    boton.className = "btnOut"}
 
 /* 2 - Enunciado
 
